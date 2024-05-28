@@ -1,0 +1,71 @@
+.title
+{
+    text-align: center;
+    font-size: 40px;
+    font-family:"fanstasy";
+    font-weight: bold;
+    line-height: 0px;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: -3px 2px 2px black;
+
+}
+body
+{
+    background-image: url("assets/imagenes/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    margin-left: 500px;
+}
+#sound
+{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 520px;
+    left: 520px;
+
+}
+#gameover
+{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+#youwon
+{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+#youlose
+{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    display: none;
+}
+#restar
+{
+    position: absolute;
+    top: 435px;
+    left: 50px;
+    cursor: pointer;
+    color: red;
+    text-shadow: -2px 1px 2px whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+    border: 1px solid red;
+    background-color: black;
+    padding: 2px;
+}
